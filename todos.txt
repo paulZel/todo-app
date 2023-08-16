@@ -3,6 +3,4 @@ do
 have
 get
 look
-must
-couldmight not
-improve python
+take
