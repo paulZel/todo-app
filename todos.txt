@@ -5,3 +5,6 @@ get
 look
 take
 go
+see
+bring
+turn
