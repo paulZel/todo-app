@@ -13,7 +13,7 @@ clock = sg.Text('', key="clock") # don't use module name time in variables
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter todo", key="todo") #usuall empty
 add_button = sg.Button("Add", size=10) #(size=2, image_source="add.png", mouseover_colors="LightBlue2",
-                       #tooltip="Add todo", key="Add") #("Add", size=10)
+                       #tooltip="Add_todo", key="Add") #("Add", size=10)
 list_box = sg.Listbox(values=functions.get_todos(), key='todos',
                       enable_events=True, size=[45, 10])
 edit_button = sg.Button("Edit")
